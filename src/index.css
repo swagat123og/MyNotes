@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+:root {
+  --bg: #10121F;
+  --ink: #ECEFFD;
+  --muted: #9AA0C0;
+  --line: #272B45;
+  --card: #181C30;
+  --nav: #181C30;
+  --acc: #8B98FF;
+  --accfg: #10121F;
+
+  --work: #1D2C47;
+  --personal: #2A2649;
+  --study: #43242F;
+  --ideas: #3E391B;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--ink);
+}
+body { font-family: 'Hanken Grotesk', system-ui, sans-serif; }
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
